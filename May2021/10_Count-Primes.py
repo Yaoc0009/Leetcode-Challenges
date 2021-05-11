@@ -5,7 +5,7 @@
 
 class Solution:
     def countPrimes(self, n: int) -> int:
-        if n < 2:
+        if n < 3:
             return 0
             
         arr = [1]*n
